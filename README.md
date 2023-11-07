@@ -31,6 +31,7 @@ const actor = {
 const publicKeyId = "https://example.com/actor#main-key"
 
 // Headers will automagically get signed
+// The `host` and `date` headers will be automatically added
 const response = await fetch(url, {
   publicKeyId,
   keypair

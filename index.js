@@ -32,9 +32,9 @@ export function create (fetch = globalThis.fetch) {
       })
 
     const headers = {
-      ...initialHeaders,
       host: new URL(url).host,
       date: new Date().toUTCString(),
+      ...initialHeaders,
       digest
     }
 
@@ -70,8 +70,7 @@ function makeSigner (keypair, publicKeyId, headerNames) {
   return signer
 }
 
-
-export function generateKeypair (){
+export function generateKeypair () {
   const {
     publicKey,
     privateKey

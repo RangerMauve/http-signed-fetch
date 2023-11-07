@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Easy to use module for signing http requests for ActivityPub using the `fetch` API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard --fix"
