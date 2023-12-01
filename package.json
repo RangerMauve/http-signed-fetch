@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard --fix"
   },
+  "types": "./@types/http-signed-fetch.d.ts",
   "keywords": [
     "activitypub",
     "fetch",
